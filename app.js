@@ -1,6 +1,15 @@
 const fullName = "Gabriel Austin";
+
 function displayPosition(job_title, company_name, description) {
     console.log("* " + job_title + " at " + company_name + " - " + description);
+}
+
+function displaySkill(skill_name, cool_or_not) {
+    if (cool_or_not == true) {
+        console.log("* BAM: " + skill_name);
+    } else {
+        console.log("* " + skill_name);
+    }
 }
 
 console.log("Name: " + fullName.toUpperCase());
@@ -27,10 +36,14 @@ displayPosition("Jr. Web Developer", "ProctorU in Birmingham, AL", "Developed in
 console.log(" ");
 
 console.log("My Skills:");
-console.log("* HTML");
-console.log("* CSS");
-console.log("* JavaScript");
-console.log("* Teaching");
+displaySkill("HTML", false);
+displaySkill("CSS", true);
+displaySkill("JavaScript", true);
+displaySkill("Teaching", false);
+displaySkill("Bike Riding", true);
+displaySkill("Double Dutching", true);
+
+
 
 
 
