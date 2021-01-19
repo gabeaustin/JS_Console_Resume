@@ -42,9 +42,3 @@ displaySkill("JavaScript", true);
 displaySkill("Teaching", false);
 displaySkill("Bike Riding", true);
 displaySkill("Double Dutching", true);
-
-
-
-
-
-
